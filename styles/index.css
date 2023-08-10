@@ -1,0 +1,18 @@
+.text-title {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-bottom: 50px;
+    line-height: normal;
+}
+
+.text-container {
+    line-height: normal;
+    background-color: whitesmoke;
+    margin-top: 15px;
+}
+
+.text-container:first-child {
+    margin-top: 0;
+}
