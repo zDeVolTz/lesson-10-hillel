@@ -2,6 +2,24 @@
     box-sizing: border-box;
 }
 
+header{
+    background-color: whitesmoke;
+}
+
+.navigation {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(113, 126, 133);
+    padding-top: 25px;
+} 
+
+.navigation-content-box {
+    text-align: center;
+    width: 200px;
+    background-color: brown;
+}
+
 main {
     background-color: whitesmoke;
 }
@@ -12,4 +30,11 @@ main {
     margin-right: auto;
     background-color: rgb(90, 124, 141);
     padding: 100px;
+}
+
+a {
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    line-height: normal;
 }
