@@ -1,0 +1,91 @@
+.main{
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: antiquewhite;
+}
+
+.wrapper {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(90, 124, 141);
+    padding: 100px;
+}
+
+.icon-square {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.icon-square:nth-child(2){
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.icon-rectangle {
+    width: 200px;
+    height: 400px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.image-section {
+    float: left;
+    margin-left: 100px;
+}
+
+.image-section:first-child {
+    margin-left: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.sprite-cthulhu {
+    background-image: url(../image/Cthulhu.png); /* Путь к спрайту */
+    background-repeat: no-repeat;
+}
+
+.sprite-witcher {
+    background-image: url(../image/witcher3.png); /* Путь к спрайту */
+    background-repeat: no-repeat;
+}
+
+.block1 {
+    background-position: 0px 0px;
+}
+
+.block2 {
+    background-position: 0px -200px;
+}
+
+.block3 {
+    background-position: -200px 0px;
+}
+
+.block4 {
+    background-position: -200px -400px;
+}
+
+.block5 {
+    background-position: -400px 0px;
+}
+
+.block6 {
+    background-position: -400px -200px;
+}
+
+.first-section {
+    margin-bottom: 100px;
+}
+
+
+
+
+
