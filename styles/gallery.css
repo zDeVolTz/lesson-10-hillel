@@ -81,10 +81,21 @@
     background-position: -400px -200px;
 }
 
-.first-section {
+.second-section {
+    margin-top: 100px;
     margin-bottom: 100px;
 }
 
+.image-second-section {
+    float: left;
+    width: 250px;
+    height: 600px;
+    margin-left: 25px;
+}
+
+.image-second-section:first-child {
+    margin-left: 0;
+} 
 
 
 
