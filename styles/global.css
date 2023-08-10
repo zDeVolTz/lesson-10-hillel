@@ -38,3 +38,8 @@ a {
     text-decoration: none;
     line-height: normal;
 }
+
+.wrapper .text:first-child {
+    margin-top: 0;
+    background-color: green;
+}

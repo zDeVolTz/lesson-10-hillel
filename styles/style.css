@@ -2,3 +2,8 @@
 @import url(gallery.css);
 @import url(index.css);
 @import url(global.css);
+
+.wrapper:nth-child(2) {
+    margin-top: 0;
+    background-color: green;
+}
